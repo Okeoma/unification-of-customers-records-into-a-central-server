@@ -21,7 +21,7 @@ application will act as a prototype for a more robust application. This will eve
 Due to the different data formats provided by the organization, the program should be 
 able to carry out the following tasks:
 
-• EXTRACT THE RECORDS WHICH ARE STORED IN VARIOUS FORMATS: The file formats 
+• **EXTRACT THE RECORDS WHICH ARE STORED IN VARIOUS FORMATS:** The file formats 
 and a description of what they contain are:
 - JSON - Customers' Credit Card records
 - XML - Customers Employment records
@@ -29,21 +29,21 @@ and a description of what they contain are:
 The program was able to extract all three files using their various Python methods for 
 reading into the application.
 
-• TRANSFORM THE DATA INTO A UNIFIED FORMAT TO ENHANCE DATA WRANGLING: 
+• **TRANSFORM THE DATA INTO A UNIFIED FORMAT TO ENHANCE DATA WRANGLING:** 
 Since the data were extracted in different formats, the program was able to transform 
 the JSON and XML files into CSV. With this process in place, it was easier to see clearly 
 the values stored in each customer category. This helped the process of gaining insights 
 into the nature of the data. It also helped in deciding on further investigations and 
 exploration analysis that was carried out to further refine the data.
 
-• DATA CLEANING: Prior to combining the three CSV files, the data had to be cleaned. The
+• **DATA CLEANING:** Prior to combining the three CSV files, the data had to be cleaned. The
 program was written to automatically clean the anomalies in the records resulting from 
 the original JSON file containing credit card records and some field names that had 
 different naming conventions and inconsistent representations to generate a more 
 consistent naming convention across all the files. In this application, field names are 
 presented in Pascal notation.
 
-• COMBINING THE THREE RECORD CATEGORIES AFTER CLEANING: Considerations were 
+• **COMBINING THE THREE RECORD CATEGORIES AFTER CLEANING:** Considerations were 
 made about using identical field names that are common to each table as a unifying
 factor to achieve coherent and consistent data unification. The program employed a 
 Python Standard Library tool for Relational Database Management operations known as 
@@ -62,7 +62,7 @@ the internet. A select query was used to create a merged table from three
 independent tables without connecting to the internet or installing any software for 
 the task at hand.
 
-• EXPLORATION AND IMPLEMENTATION OF REQUIRED TASKS: A requirement for the 
+• **EXPLORATION AND IMPLEMENTATION OF REQUIRED TASKS:** A requirement for the 
 application was to process a text file containing communications between staff of the 
 organization generated through memos, emails, telegrams, and other electronic 
 channels. To extract the tasks, the text file was read so the tasks could be understood. 
@@ -70,7 +70,7 @@ After breaking it down into four operations, the tasks were implemented
 programmatically. They were executed in the SQL table containing the unified records of 
 the organization, from which the updated merged file was generated.
 
-• LOAD THE DATA INTO THE CENTRAL DATABASE SERVER: The application was able to 
+• **LOAD THE DATA INTO THE CENTRAL DATABASE SERVER:** The application was able to 
 connect to the central data store with the help of the PonyORM library. This was 
 achieved by first transforming the merged table in SQL back into CSV format before 
 uploading it to the phpMyAdmin server programmatically.

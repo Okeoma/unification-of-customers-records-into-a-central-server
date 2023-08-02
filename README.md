@@ -1,4 +1,4 @@
-# Unification-of-customers-records-into-a-central-server
+# Unification of Customers Records-into a Central-Server
 A Python program for combining multiple data sources (CSV, JSON, and XML) provided, and pushing these to a central organisational data store.
 # APPLICATION DEVELOPMENT REQUIREMENTS AND PROCESSES
 ## IMPLEMENTATION AND FUTURE PLANS

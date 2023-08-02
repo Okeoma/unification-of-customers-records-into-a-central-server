@@ -20,12 +20,13 @@ The choice of using Python script over Jupyter Notebook was born from the fact t
 application will act as a prototype for a more robust application. This will eventually require big data.
 Due to the different data formats provided by the organization, the program should be 
 able to carry out the following tasks:
+
 • EXTRACT THE RECORDS WHICH ARE STORED IN VARIOUS FORMATS: The file formats 
 and a description of what they contain are:
-- JSON - Customers Credit Card records
+- JSON - Customers' Credit Card records
 - XML - Customers Employment records
 - CSV - Customers Vehicle records
-The program was able to extract all three files using their various python methods for 
+The program was able to extract all three files using their various Python methods for 
 reading into the application.
 
 • TRANSFORM THE DATA INTO A UNIFIED FORMAT TO ENHANCE DATA WRANGLING: 
